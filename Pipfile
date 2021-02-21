@@ -15,6 +15,7 @@ pyjwt = "*"
 werkzeug = "*"
 flask-migrate = "*"
 flask-cors = "*"
+newrelic = "*"
 
 [dev-packages]
 
