@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-sqlalchemy = "*"
+donttrust = "*"
+redis = "*"
+bcrypt = "*"
+cryptography = "*"
+python-dotenv = "*"
+pyjwt = "*"
+werkzeug = "*"
+flask-migrate = "*"
+flask-cors = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
