@@ -16,6 +16,8 @@ werkzeug = "*"
 flask-migrate = "*"
 flask-cors = "*"
 newrelic = "*"
+gunicorn = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
 

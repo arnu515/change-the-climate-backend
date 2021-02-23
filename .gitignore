@@ -3,3 +3,4 @@ db.db
 venv
 .idea
 **/__pycache__
+newrelic_config.ini

@@ -22,10 +22,12 @@ def create_app():
         from .routes import auth
         from .routes import posts
         from .routes import comments
+        from .routes import users
 
         app.register_blueprint(auth.b)
         app.register_blueprint(posts.b)
         app.register_blueprint(comments.b)
+        app.register_blueprint(users.b)
 
         # Exceptions
         from .routes import HTTPException
