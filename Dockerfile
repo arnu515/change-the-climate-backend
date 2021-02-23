@@ -20,6 +20,6 @@ COPY . .
 
 RUN pipenv run flask db upgrade
 
-EXPOSE 5000
+EXPOSE 80
 
 ENTRYPOINT ["sh", "start.sh"]
